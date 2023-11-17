@@ -1,0 +1,81 @@
+/* reset */
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
+html{
+    font-size: 62.5%; /* 16px * 62.5% = 10.00rem */
+    height: 100%;
+}
+body{
+    font: 1.6rem "Roboto Slab", sans-serif;
+    margin: 0;
+    initial-letter: .1rem;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #feffff, #57e8ca);
+
+}
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,p,figure,ol,ul,blockquote,address{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+button, a{
+    text-decoration: none;
+    background-color: transparent;
+    border: 0;
+}
+
+/* star */
+
+body{
+    width: 36%;
+    margin: 0 auto;
+}
+header h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+main h2{
+    margin-bottom: 2rem;
+}
+main ul li{
+    margin: .5rem 0rem;
+}
+main ul{
+    padding-bottom: 2rem;
+}
+body main{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+body main section{
+    margin: 0rem 1rem 0rem 1rem;
+}
+body main section img{
+    width: 100%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 900;
+    margin: .4rem;
+    font-family: serif;
+}
+footer p.A{
+    background-color: #555555;
+    padding: .2rem;
+    border-bottom-left-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+footer p.B{
+    background-color: #1081c2;
+    padding: .2rem;
+    border-bottom-right-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
