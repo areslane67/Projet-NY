@@ -4,7 +4,6 @@
 
 html{
     font-size: 62.5%; /* 16px * 62.5% = 10.00rem */
-    height: 100%;
 }
 body{
     font: 1.6rem "Roboto Slab", sans-serif;
@@ -12,6 +11,7 @@ body{
     initial-letter: .1rem;
     line-height: 1.6;
     background: linear-gradient(to bottom, #feffff, #57e8ca);
+    min-height: 100vh;
 
 }
 *{
@@ -27,7 +27,10 @@ button, a{
     background-color: transparent;
     border: 0;
 }
-
+ion-icon{
+    vertical-align: -.2rem;
+    margin-right: 1rem;
+}
 /* star */
 
 body{
@@ -39,10 +42,14 @@ header h1{
     text-transform: capitalize;
 }
 main h2{
-    margin-bottom: 2rem;
+    padding: 1rem 0rem;
 }
 main ul li{
     margin: .5rem 0rem;
+}
+main ul li img{ 
+    max-width: 2rem;
+    height: 2rem;
 }
 main ul{
     padding-bottom: 2rem;
