@@ -4,7 +4,7 @@
 
 html{
     font-size: 62.5%; /* 16px * 62.5% = 10.00rem */
-    height: 100%;
+    min-height: 100vh;
 }
 body{
     font: 1.6rem "Roboto Slab", sans-serif;
@@ -34,12 +34,16 @@ body{
     width: 36%;
     margin: 0 auto;
 }
+ion-icon{
+    vertical-align: -.2rem;
+    margin-right: 1rem;
+}
 header h1{
     text-align: center;
     text-transform: capitalize;
 }
 main h2{
-    margin-bottom: 2rem;
+    padding: 1rem 0rem;
 }
 main ul li{
     margin: .5rem 0rem;
