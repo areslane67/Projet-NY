@@ -19,11 +19,11 @@ export const template = {
                                     <h2 itemprop="name"><ion-icon name="bulb-outline"></ion-icon>A propos</h2>
                                     <img src="${Description.Image}" alt="Img" itemprop="image">
                                     <ul itemprop="description">
-                                        <li><strong><ion-icon name="easel-outline"></ion-icon> Description</strong> : ${Description.Ville}</li>
-                                        <li><strong><ion-icon name="partly-sunny-outline"></ion-icon> Météo</strong> : ${Description.Météo}</li>
-                                        <li><strong><ion-icon name="business-outline"></ion-icon> Quartier</strong> : ${Description.quartier}</li>
-                                        <li><strong><ion-icon name="people-circle-outline"></ion-icon> Population</strong> : ${Description.population}</li>
-                                        <li><strong><ion-icon name="location-outline"></ion-icon> Coordonnées</strong> : ${Description.superficie}</li>
+                                        <li><b><ion-icon name="easel-outline"></ion-icon> Description</b> : ${Description.Ville}</li>
+                                        <li><b><ion-icon name="partly-sunny-outline"></ion-icon> Météo</b> : ${Description.Météo}</li>
+                                        <li><b><ion-icon name="business-outline"></ion-icon> Quartier</b> : ${Description.quartier}</li>
+                                        <li><b><ion-icon name="people-circle-outline"></ion-icon> Population</b> : ${Description.population}</li>
+                                        <li><b><ion-icon name="location-outline"></ion-icon> Coordonnées</b> : ${Description.superficie}</li>
                                     </ul>
                                     `;
     }
